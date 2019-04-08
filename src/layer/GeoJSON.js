@@ -15,12 +15,14 @@ const GeoJSON = pure(props => {
         extruded: true,
         lineWidthScale: 20,
         lineWidthMinPixels: 2,
-        getFillColor: [160, 160, 180, 200],
+        getFillColor: [168, 20, 0, 255],
         getLineColor: d => colorToRGBArray(d.properties.color),
         getRadius: 100,
-        getLineWidth: 1,
+        getLineWidth: 10,
         getElevation: 30,
-        fp64: true
+        fp64: true,
+        onHover: ({object, x, y}) => {
+        }
     });
 
     return (

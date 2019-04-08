@@ -6,8 +6,8 @@ import data from '../_data/1544830408.json';
 import { GenerateGeoJsonFromFeaturesArray } from '../utils/geojson';
 
 export const INITIAL_VIEW_STATE = {
-    latitude: 49.254,
-    longitude: -123.13,
+    latitude: 37.753786,
+    longitude: -122.418615,
     zoom: 11,
     maxZoom: 16,
     pitch: 0,
@@ -27,3 +27,4 @@ const MapillaryImageDetect = compose(
 );
 
 export default MapillaryImageDetect(GeoJSON);
+
