@@ -5,7 +5,7 @@
   "dependencies": {
     "@mapbox/geojsonhint": "^2.1.0",
     "d3-color": "^1.2.3",
-    "deck.gl": "^6.4.4",
+    "deck.gl": "9.1.12",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-map-gl": "^4.0.11",
@@ -29,6 +29,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "json-loader": "^0.5.7"
+    "json-loader": "^0.5.7",
+    "npm": "11.4.1"
   }
 }
